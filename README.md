@@ -2,7 +2,6 @@
 
 # ⚛️ React Everywhere
 
-
 </div>
 
 > _Any application that can be written in ~~JavaScript~~ **React**, will eventually be written in ~~JavaScript~~ **React**._
@@ -40,10 +39,8 @@ React as a video production engine. Components describe frames, timelines, and m
 | Project                                              | Description                                                                                                              |
 | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | [Remotion](https://github.com/remotion-dev/remotion) | Programmatic video creation with React. Define animations as components and render them to MP4 using a headless browser. |
-| [Motion Canvas](https://motioncanvas.io/)            | TypeScript-based animation engine for creating animated videos, built on a component model similar to React.             |
 | [React Spring](https://react-spring.dev/)            | Physics-based spring animation library that models real-world motion in UI.                                              |
 | [Framer Motion](https://www.framer.com/motion/)      | Production-grade declarative animation library with gesture support and layout transitions.                              |
-| [Theatre.js](https://www.theatrejs.com/)             | Animation editor with a visual timeline UI for orchestrating complex, keyframed motion in React apps.                    |
 
 ---
 
@@ -88,11 +85,10 @@ PDF generation, Word documents, and transactional HTML emails — authored as JS
 
 Declarative audio graphs, sequencers, and synthesizers. React's state and lifecycle management applied to the Web Audio API.
 
-| Project                                                      | Description                                                                                              |
-| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| [Reactronica](https://reactronica.com/)                      | React components for sequencing and playing music in the browser, built on the Tone.js audio framework.  |
-| [React Music](https://github.com/FormidableLabs/react-music) | Declarative music composition with React — define songs as component trees.                              |
-| [Tone.js](https://tonejs.github.io/)                         | A powerful Web Audio framework for building synthesizers and audio effects, composable with React hooks. |
+| Project                                                                 | Description                                                                                             |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [Reactronica](https://reactronica.com/)                                 | React components for sequencing and playing music in the browser, built on the Tone.js audio framework. |
+| [React Music](https://github.com/FormidableLabs/react-music) (archived) | Declarative music composition with React — define songs as component trees.                             |
 
 ---
 
@@ -103,7 +99,6 @@ React's reconciler managing game state, physics simulations, and 2D canvas scene
 | Project                                                        | Description                                                                                                                               |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | [react-konva](https://konvajs.org/docs/react/)                 | React bindings for the Konva 2D canvas library. Build interactive canvas scenes with shapes, drag-and-drop, and events — all declarative. |
-| [boardgame.io](https://boardgame.io/)                          | Framework for building multiplayer turn-based games with a React UI layer and a structured game state machine.                            |
 | [react-three-game](https://github.com/prnthh/react-three-game) | A game engine built on react-three-fiber, featuring physics integration, transform gizmos, and a level editor UI.                         |
 
 ---
@@ -128,10 +123,8 @@ React running on constrained hardware, d-pad navigation, and living room screens
 | Project                                                                                              | Description                                                                                                                        |
 | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | [React Native for tvOS / Android TV](https://github.com/react-native-tvos/react-native-tvos)         | Official support for deploying React apps to Apple TV and Android TV, with focus management adapted for remote control navigation. |
-| [react-tv](https://github.com/raphamorim/react-tv)                                                   | A React renderer optimized for low-memory Smart TV platforms including LG WebOS and Samsung Tizen.                                 |
+| [react-tv](https://github.com/raphamorim/react-tv) (archived)                                        | A React renderer optimized for low-memory Smart TV platforms including LG WebOS and Samsung Tizen.                                 |
 | [React Native Multi-TV App Sample](https://github.com/AmazonAppDev/react-native-multi-tv-app-sample) | Amazon's reference implementation for a cross-platform TV app targeting Android TV, Fire TV, tvOS, and web from a single codebase. |
-
-> Netflix internally developed **React Gibbon**, a custom React renderer for their TV platform, purpose-built to work around the limitations of the browser DOM on memory-constrained television hardware.
 
 ---
 
@@ -139,10 +132,9 @@ React running on constrained hardware, d-pad navigation, and living room screens
 
 React's reconciler applied to physical hardware interfaces. Describe the desired state of pins and peripherals as components — let React figure out the diff.
 
-| Project                                                       | Description                                                                                                                                        |
-| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [react-hardware](https://github.com/iamdustan/react-hardware) | A React renderer for hardware devices. Expresses GPIO pin states and interactions as React components, targeting Arduino-compatible boards.        |
-| [Johnny-Five](http://johnny-five.io/)                         | JavaScript robotics and IoT framework with broad hardware support, commonly paired with React for building control dashboards and data interfaces. |
+| Project                                                       | Description                                                                                                                                 |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [react-hardware](https://github.com/iamdustan/react-hardware) | A React renderer for hardware devices. Expresses GPIO pin states and interactions as React components, targeting Arduino-compatible boards. |
 
 ---
 
@@ -154,8 +146,6 @@ WebXR rendered through React. Immersive environments and spatial interfaces desc
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | [@react-three/xr](https://github.com/pmndrs/xr)                          | WebXR support for react-three-fiber. Build VR and AR experiences for Meta Quest and other WebXR-compatible headsets. |
 | [react-unity-webgl](https://github.com/jeffreylanters/react-unity-webgl) | Bidirectional communication between a React application and an embedded Unity WebGL build.                           |
-
-> Meta's Horizon OS uses React for portions of its native headset UI.
 
 ---
 
@@ -186,13 +176,12 @@ React as the rendering layer for streaming AI responses, agent UIs, and LLM work
 
 Animated, interactive, and explorable data — rendered as React components with SVG, Canvas, or WebGL under the hood.
 
-| Project                                                              | Description                                                                                     |
-| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [Recharts](https://recharts.org/)                                    | Composable, declarative chart library built on D3 and React SVG.                                |
-| [Nivo](https://nivo.rocks/)                                          | Comprehensive dataviz library with support for motion, SVG, canvas, and server-side rendering.  |
-| [react-force-graph](https://github.com/vasturiano/react-force-graph) | Force-directed graph visualization in 2D and 3D using Canvas and WebGL.                         |
-| [Deck.gl](https://deck.gl/)                                          | WebGL-powered visualization layers for maps and large datasets. Also listed under Maps & Geo.   |
-| [Observable Plot](https://observablehq.com/plot/)                    | A concise, expressive API for exploratory data visualization, usable within React applications. |
+| Project                                                              | Description                                                                                    |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [Recharts](https://recharts.org/)                                    | Composable, declarative chart library built on D3 and React SVG.                               |
+| [Nivo](https://github.com/plouc/nivo)                                | Comprehensive dataviz library with support for motion, SVG, canvas, and server-side rendering. |
+| [react-force-graph](https://github.com/vasturiano/react-force-graph) | Force-directed graph visualization in 2D and 3D using Canvas and WebGL.                        |
+| [Deck.gl](https://deck.gl/)                                          | WebGL-powered visualization layers for maps and large datasets. Also listed under Maps & Geo.  |
 
 ---
 
@@ -215,7 +204,6 @@ React as a creative coding environment. Components encapsulate sketches, shaders
 | Project                                           | Description                                                                                                   |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | [react-p5](https://github.com/P5-wrapper/react)   | React wrapper for p5.js, enabling generative sketches to be composed and controlled as React components.      |
-| [Pts.js](https://ptsjs.org/)                      | A creative coding library for 2D geometry and interaction, designed to integrate cleanly with React.          |
 | [Auto-Animate](https://auto-animate.formkit.com/) | Drop-in animation utility that adds smooth transitions to any React list or layout change with a single hook. |
 
 ---
@@ -224,11 +212,11 @@ React as a creative coding environment. Components encapsulate sketches, shaders
 
 React's reconciler is not tied to the DOM. It is a general-purpose tree diffing engine that can target any platform — as long as you implement the host configuration interface.
 
-| Project                                                                  | Description                                                                                                                             |
-| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [react-reconciler](https://www.npmjs.com/package/react-reconciler)       | The low-level package used to build custom React renderers. The foundation that all non-DOM renderers are built on.                     |
-| [react-nil](https://github.com/pmndrs/react-nil)                         | A React renderer that produces no output. Used to run React's component lifecycle and side effects in headless or server-side contexts. |
-| [react-test-renderer](https://www.npmjs.com/package/react-test-renderer) | Renders React components to plain JavaScript objects without a DOM — the basis for component snapshot testing.                          |
+| Project                                                                               | Description                                                                                                                             |
+| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| [react-reconciler](https://www.npmjs.com/package/react-reconciler)                    | The low-level package used to build custom React renderers. The foundation that all non-DOM renderers are built on.                     |
+| [react-nil](https://github.com/pmndrs/react-nil)                                      | A React renderer that produces no output. Used to run React's component lifecycle and side effects in headless or server-side contexts. |
+| [react-test-renderer](https://www.npmjs.com/package/react-test-renderer) (deprecated) | Renders React components to plain JavaScript objects without a DOM — the basis for component snapshot testing.                          |
 
 ---
 
