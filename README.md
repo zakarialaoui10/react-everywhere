@@ -182,6 +182,7 @@ Animated, interactive, and explorable data — rendered as React components with
 | [Nivo](https://github.com/plouc/nivo)                                | Comprehensive dataviz library with support for motion, SVG, canvas, and server-side rendering. |
 | [react-force-graph](https://github.com/vasturiano/react-force-graph) | Force-directed graph visualization in 2D and 3D using Canvas and WebGL.                        |
 | [Deck.gl](https://deck.gl/)                                          | WebGL-powered visualization layers for maps and large datasets. Also listed under Maps & Geo.  |
+| [react-chartjs-2](https://github.com/reactchartjs/react-chartjs-2)   | React components for Chartjs.                                                                  |
 
 ---
 
